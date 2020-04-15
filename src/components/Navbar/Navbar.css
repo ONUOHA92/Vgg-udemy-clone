@@ -1,0 +1,44 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+.nav{
+   padding: 0.5rem 1rem;
+   display: grid;
+   grid-template-columns: auto 1fr;
+   align-items: center !important;
+}
+
+ li{
+   color: white;
+   list-style: none;
+   
+ }
+
+ li a{
+   text-decoration: none !important;
+   text-transform: capitalize;
+   align-items: center !important;
+   color:white;
+   
+
+ }
+
+ a.nav-link{
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  align-items: center !important;
+  color:white !important;
+  margin-bottom: 1rem;
+
+
+ }
+
+ li :hover{
+   color: seashell;
+   transition: all 0.3 ease-in-out;
+ }
+
+ 
