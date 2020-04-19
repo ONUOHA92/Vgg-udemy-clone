@@ -15,7 +15,7 @@ class Banner extends Component {
                          <h3>this is the best website for Eductional material</h3>
                         <p className='text-center bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, officiis.</p>
                             <div className="text-center">
-                            <button  className="btn btn-danger"><a href="">search</a></button> 
+                            <button  className="btn btn-danger"></button> 
                             </div>
                            
                         </div>

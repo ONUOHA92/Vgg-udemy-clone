@@ -13,6 +13,7 @@ import Default from './pages/Default'
 // THIS IS THE COMPONENT PAGES
 import Navbar from './components/Navbar/Navbar'
 import './App.css';
+import Dashboard from './pages/Dashboard';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path="/SIgnIn" component={SignIn} />
             <Route path="/SignUp" component={SignUp} />
             <Route path="/SignOut" component={SignOut} />
+             <Route path="/Dashboard" component={Dashboard} />
             <Route component={Default} />
           </Switch>
         </main>
